@@ -209,9 +209,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tasks\Tasks.csproj">
-      <Project>{a5ab0f13-7ad3-42c2-ba87-3448926c1132}</Project>
-      <Name>Tasks</Name>
+    <ProjectReference Include="..\Tasks\BackgroundTransfer_Tasks.csproj">
+      <Project>{EAFB1EE5-60C2-5614-910F-33BDBF28DF84}</Project>
+      <Name>BackgroundTransfer_Tasks</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

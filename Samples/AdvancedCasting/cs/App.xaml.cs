@@ -101,7 +101,7 @@ namespace ScreenCasting
             Window.Current.Activate();
         }
 
-        private void Current_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        private void Current_UnhandledException(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs e)
         {
             Window.Current.Content = new Frame();
             Frame rootFrame = Window.Current.Content as Frame;
